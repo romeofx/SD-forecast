@@ -1,0 +1,6 @@
+Flask==2.3.2
+prophet==1.1.5
+plotly==5.17.0
+pandas==2.2.1
+numpy==1.26.4
+gunicorn==21.2.0
