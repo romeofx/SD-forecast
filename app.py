@@ -9,7 +9,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # Load saved Prophet model
-model = joblib.load("saved_prophet_model.pkl")  # Adjust name if different
+model = joblib.load("prophet_model.pkl")  # Adjust name if different
 
 @app.route('/')
 def index():
